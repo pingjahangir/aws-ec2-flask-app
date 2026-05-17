@@ -74,7 +74,11 @@ aws-ec2-flask-app/
 ├── app.py
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+├── .gitignore
+├── nginx/
+│   └── flask-app.conf
+└── systemd/
+    └── flask-app.service
 ```
 
 ---
